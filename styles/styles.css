@@ -1,0 +1,147 @@
+/* ----------------------element styles-------------------------- */
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image:  url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHdhbGxwYXBlcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60);
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(84, 106, 136));
+    
+}
+img{
+  width: 400px;
+  height: 300px;
+  margin: 10px;
+  border-radius: 2px;
+  transition: all 1s;
+  border-radius: 5% ;
+}
+
+nav ul li a{
+text-decoration: none;
+cursor: pointer;
+transition: .5s;
+background-color: transparent;
+color: rgba(210, 201, 201, 0.848);
+
+}
+nav ul li{
+display: inline-block;
+margin-left: 15px;
+margin-right: 15px;
+margin-top: 30px;
+
+}
+nav{
+padding-top: 20px;
+padding-left: 10px;
+padding-right: 10px;
+display: flex;
+justify-content: space-between;
+
+}
+nav ul li a:hover{
+color: bisque;
+}
+h2{
+  font-size: 60px;
+  letter-spacing: 1px;
+}
+footer{
+  text-align: center;
+}
+/* ----------------------class styles----------------------- */
+.card {
+    
+    background-color: rgb(195, 188, 174);
+    margin: 20px 10px;
+    padding: 10px;
+    border-radius: 2px;
+  }
+  .card{
+    display: flex;
+    flex-direction: column;
+    flex: 1 30%;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5%;
+  }
+  
+  
+  .card:hover {
+    color: antiquewhite;
+    background-color: #2f3a5a;
+    transition: 1s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  
+  .container {
+    padding: 2px 16px;
+  }
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.logo{
+  font-weight: bolder;
+  
+}
+.button {
+  background-color: #141814; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10%;
+  
+}
+.button:hover{
+  background-color: rgb(106, 126, 148);
+  transition: 1s;
+}
+
+.twitter{
+  margin-top: 20px;
+  padding: 5px;
+  color: #141814;
+}
+.twitter:hover{
+  cursor: pointer;
+  transition: .5s;
+  background-color: transparent;
+  color: rgba(210, 201, 201, 0.848);
+}
+.fb{
+  margin-top: 20px;
+  padding: 5px;
+  color: #141814;
+}
+  
+.google{
+  margin-top: 20px;
+  padding: 5px;
+  color: #141814;
+}
+
+.fb:hover{
+  cursor: pointer;
+  transition: .5s;
+  background-color: transparent;
+  color: rgba(210, 201, 201, 0.848);
+}
+.google:hover{
+  cursor: pointer;
+  transition: .5s;
+  background-color: transparent;
+  color: rgba(210, 201, 201, 0.848);
+}
